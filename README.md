@@ -211,7 +211,7 @@ If you use this code in your research, please cite:
 
 ## License
 
-MIT License - See LICENSE file for details
+This project is open source under the [MIT License](LICENSE). See the LICENSE file for details.
 
 ## Contributing
 
