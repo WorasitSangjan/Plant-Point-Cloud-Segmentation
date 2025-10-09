@@ -1,10 +1,17 @@
 # Plant Point Cloud Segmentation
 
-Automated segmentation and volumetric analysis of individual plants from 3D point cloud scans (3D camera) using smart spatial clustering and voxel-based measurements.
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
+![Open Source](https://img.shields.io/badge/Open%20Source-Yes-brightgreen.svg)
+![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
+[![Platform](https://img.shields.io/badge/Platform-3D%20Camera|LiDAR-red.svg)](https://raspberrypi.org)
+![Agriculture](https://img.shields.io/badge/Agriculture-Precision%20Agriculture-green.svg)
+![Research](https://img.shields.io/badge/Research-USDA--ARS-navy.svg)
+
+> **Automated segmentation and volumetric analysis of individual plants from 3D point cloud scans (3D camera) using spatial clustering and voxel-based measurements.**
 
 ## Features
 
-- **Smart Segmentation**: Automatically detects and separates individual plants using X-axis distribution analysis
+- **Autimatic Segmentation**: Automatically detects and separates individual plants using X-axis distribution analysis
 - **Robust Cleaning**: Removes background walls, pots, and outliers using color and spatial filtering
 - **Volumetric Analysis**: Multi-resolution voxel-based volume and surface area calculation
 - **Visual Outputs**: Generates 3D meshes (OBJ), point clouds (PLY), and diagnostic visualizations
@@ -72,7 +79,7 @@ python volumetric_analysis.py
 ## Example Workflow
 
 ```bash
-# 1. Segment plants from scan
+# 1. Segment plants from the scan
 python segmentation.py
 > Input PLY file: my_scan.ply
 > Number of plants: 7
@@ -139,7 +146,7 @@ results/
 - matplotlib >= 3.3.0
 - scikit-learn >= 0.24.0
 
-See `requirements.txt` for complete list.
+See `requirements.txt` for a complete list.
 
 ## File Format
 
@@ -163,7 +170,7 @@ See `requirements.txt` for complete list.
 1. **Background Removal**: Depth-based filtering using white pot labels
 2. **Pot Removal**: Y-coordinate analysis with color filtering
 3. **Outlier Removal**: Statistical outlier detection (Open3D)
-4. **Smart Segmentation**: Histogram-based peak/valley detection in X-axis
+4. **Automatic Segmentation**: Histogram-based peak/valley detection in X-axis
 5. **Boundary Optimization**: Automatic merging/splitting to match plant count
 
 ### Volumetric Method
@@ -177,7 +184,7 @@ See `requirements.txt` for complete list.
 ## Troubleshooting
 
 ### Issue: "No PLY files found"
-**Solution**: Ensure input directory contains `.ply` files and path is correct.
+**Solution**: Ensure the input directory contains `.ply` files and the path is correct.
 
 ### Issue: "Zero volume results"
 **Solution**: 
@@ -188,7 +195,7 @@ See `requirements.txt` for complete list.
 ### Issue: "Segmentation creates wrong number of plants"
 **Solution**: 
 - Adjust `num_plants` parameter
-- Check if plants are clearly separated in X-axis
+- Check if plants are clearly separated in the X-axis
 - Verify background/pots are properly removed
 
 ### Issue: "Too many/few points after cleaning"
