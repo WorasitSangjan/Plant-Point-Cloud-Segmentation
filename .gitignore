@@ -1,0 +1,20 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Output directories from scripts
+individual_plants/
+individual_plants_batch/
+volumetric_results/
+
+# Output files
+plants_cleaned.ply
+segmentation_histogram.png
+plant_measurements.csv
+
+# Large input data files
+*.ply
+
+# IDE and OS
+.vscode/
+.DS_Store
