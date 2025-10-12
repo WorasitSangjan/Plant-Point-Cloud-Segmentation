@@ -1,0 +1,16 @@
+# Plant Point Cloud Segmentation - Dependencies
+
+# Core point cloud processing
+open3d>=0.13.0
+
+# Numerical computing
+numpy>=1.19.0
+
+# Scientific computing and signal processing
+scipy>=1.5.0
+
+# Machine learning (for DBSCAN clustering)
+scikit-learn>=0.24.0
+
+# Plotting and visualization
+matplotlib>=3.3.0
