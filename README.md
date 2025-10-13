@@ -60,6 +60,10 @@ Follow the interactive prompts:
 - `plants_cleaned.ply` (cleaned combined point cloud)
 - `segmentation_histogram.png` (visualization)
 
+<img src="https://github.com/WorasitSangjan/Plant-Point-Cloud-Segmentation/blob/main/images/pic1.png" alt="Plant point cloud" width="120%">
+
+*Plant point cloud Processing. (A) Raw point cloud from 3D-Camera; (B) Cleaned point cloud before segmentation*
+
 ### Step 2: Volumetric Analysis
 
 Calculate volume and surface area for each plant:
@@ -75,6 +79,10 @@ python volumetric_analysis.py
 - `plant_01_fine_voxels_3mm.obj` - Fine resolution mesh
 - `plant_01_*_voxels_*mm.ply` - Voxel centers as point clouds
 - `plant_measurements.csv` - Summary with volume (cm³) and area (cm²)
+
+<img src="https://github.com/WorasitSangjan/Plant-Point-Cloud-Segmentation/blob/main/images/pic2.png" alt="Plant point cloud" width="40%">
+
+*(A) Individual plant point cloud; (B) 3D voxel of plant*
 
 ## Example Workflow
 
