@@ -3,7 +3,7 @@
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 ![Open Source](https://img.shields.io/badge/Open%20Source-Yes-brightgreen.svg)
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
-[![Platform](https://img.shields.io/badge/Platform-3D%20Camera|LiDAR-red.svg)](https://raspberrypi.org)
+![Platform](https://img.shields.io/badge/Platform-3D%20Camera|LiDAR-red.svg)
 ![Agriculture](https://img.shields.io/badge/Agriculture-Precision%20Agriculture-green.svg)
 ![Research](https://img.shields.io/badge/Research-USDA--ARS-navy.svg)
 
