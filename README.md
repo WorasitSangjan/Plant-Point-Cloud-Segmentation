@@ -11,7 +11,7 @@
 
 ## Features
 
-- **Autimatic Segmentation**: Automatically detects and separates individual plants using X-axis distribution analysis
+- **Automatic Segmentation**: Automatically detects and separates individual plants using X-axis distribution analysis
 - **Robust Cleaning**: Removes background walls, pots, and outliers using color and spatial filtering
 - **Volumetric Analysis**: Multi-resolution voxel-based volume and surface area calculation
 - **Visual Outputs**: Generates 3D meshes (OBJ), point clouds (PLY), and diagnostic visualizations
