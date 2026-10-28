@@ -234,7 +234,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Contact
 
-For questions or issues, please open an issue on GitHub or contact [worasitsangjan.ws@gmail.com]
+For questions or issues, please open an issue on GitHub or contact [worasitsangjan.github.io](https://worasitsangjan.github.io/)
 
 ## Acknowledgments
 
